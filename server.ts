@@ -6,7 +6,7 @@ import {Movie} from "./models/movies";
 import {router} from "./routes/movie-routes";
 
 const PORT = 3000;
-const URL = 'mongodb://admin:admin@localhost:27017/moviebox';
+//const URL = 'mongodb://admin:admin@localhost:27017/moviebox';
 const app = express();
 app.use(express.json()); //MIddleware for reading data vars from body
 app.use(router); //Middlaware for router

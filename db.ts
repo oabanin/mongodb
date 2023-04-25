@@ -1,6 +1,9 @@
 import {Db, MongoClient} from "mongodb";
 
+//const URL = 'mongodb://admin:admin@localhost:27017/moviebox';
 const URL = 'mongodb://admin:admin@localhost:27017/moviebox';
+
+
 
 let dbConnection: Db;
 const connectToDb = (cb:any) => {
